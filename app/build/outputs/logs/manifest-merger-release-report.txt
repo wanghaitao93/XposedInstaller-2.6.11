@@ -1,0 +1,179 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:2:1-91:12
+INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:2:1-91:12
+INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:2:1-91:12
+INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:2:1-91:12
+INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:2:1-91:12
+INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:2:1-91:12
+INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:2:1-91:12
+	package
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:4:5-47
+		INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:6:5-32
+		INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:5:5-29
+		INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:8:5-11:39
+INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:8:5-11:39
+INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:8:5-11:39
+INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:8:5-11:39
+INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:8:5-11:39
+	android:targetSdkVersion
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml
+	tools:ignore
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:11:9-36
+	android:minSdkVersion
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_SUPERUSER
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:13:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:15:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:16:22-76
+application
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:18:5-89:19
+	android:label
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:21:9-41
+	android:icon
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:20:9-45
+	android:allowBackup
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:19:9-36
+	android:theme
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:22:9-42
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:23:9-34
+activity#de.robv.android.xposed.installer.WelcomeActivity
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:25:9-40:20
+	android:label
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:27:13-45
+	android:exported
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:29:13-36
+	android:configChanges
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:28:13-59
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:26:13-44
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:30:13-39:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:32:27-74
+data
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:34:17-36:73
+	android:host
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:35:21-51
+	android:scheme
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:36:21-70
+	android:pathPrefix
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:63:77-106
+activity#de.robv.android.xposed.installer.XposedInstallerActivity
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:42:9-50:20
+	android:exported
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:45:13-36
+	android:configChanges
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:44:13-59
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:43:13-52
+intent-filter#android.intent.category.DEFAULT+de.robv.android.xposed.installer.OPEN_SECTION
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:46:13-49:29
+action#de.robv.android.xposed.installer.OPEN_SECTION
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:47:25-85
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:48:17-75
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:48:27-73
+activity#de.robv.android.xposed.installer.DownloadDetailsActivity
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:52:9-67:20
+	android:exported
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:55:13-36
+	android:configChanges
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:54:13-59
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:53:13-52
+intent-filter#android.intent.category.DEFAULT+de.robv.android.xposed.installer.DOWNLOAD_DETAILS
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:56:13-60:29
+action#de.robv.android.xposed.installer.DOWNLOAD_DETAILS
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:57:17-92
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:57:25-89
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:61:13-66:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:62:17-69
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:62:25-66
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:65:17-78
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:65:27-75
+receiver#de.robv.android.xposed.installer.PackageChangeReceiver
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:69:9-77:20
+	android:exported
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:70:13-37
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:69:19-56
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_CHANGED+android.intent.action.PACKAGE_REMOVED
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:71:13-76:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:72:17-78
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:72:25-75
+action#android.intent.action.PACKAGE_CHANGED
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:73:17-80
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:73:25-77
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:74:17-80
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:74:25-77
+receiver#de.robv.android.xposed.installer.DownloadReceiver
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:79:9-85:20
+	android:exported
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:80:13-36
+	android:permission
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:81:13-84
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:79:19-51
+intent-filter#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:82:13-84:29
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:83:17-82
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:83:25-79
+receiver#de.robv.android.xposed.installer.util.NotificationUtil$RebootReceiver
+ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:87:9-88:40
+	android:exported
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:88:13-37
+	android:name
+		ADDED from C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\AndroidManifest.xml:87:19-71

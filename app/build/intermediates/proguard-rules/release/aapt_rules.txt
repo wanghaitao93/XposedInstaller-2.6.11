@@ -1,0 +1,44 @@
+# Referenced at C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\res\layout\activity_download_details.xml:14
+-keep class android.support.v4.view.PagerTabStrip { <init>(...); }
+
+# Referenced at C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\res\layout\activity_download_details.xml:7
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# Referenced at C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\res\menu\menu_download.xml:4
+-keep class android.widget.SearchView { <init>(...); }
+
+# Referenced at C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\res\layout\tab_downloader.xml:9
+-keep class com.emilsjolander.components.stickylistheaders.StickyListHeadersListView { <init>(...); }
+
+# Referenced at C:\Users\eric\Project\XposedInstaller-2.6.11\app\build\intermediates\manifests\full\release\AndroidManifest.xml:49
+-keep class de.robv.android.xposed.installer.DownloadDetailsActivity { <init>(...); }
+
+# Referenced at C:\Users\eric\Project\XposedInstaller-2.6.11\app\build\intermediates\manifests\full\release\AndroidManifest.xml:84
+-keep class de.robv.android.xposed.installer.DownloadReceiver { <init>(...); }
+
+# Referenced at C:\Users\eric\Project\XposedInstaller-2.6.11\app\build\intermediates\manifests\full\release\AndroidManifest.xml:73
+-keep class de.robv.android.xposed.installer.PackageChangeReceiver { <init>(...); }
+
+# Referenced at C:\Users\eric\Project\XposedInstaller-2.6.11\app\build\intermediates\manifests\full\release\AndroidManifest.xml:22
+-keep class de.robv.android.xposed.installer.WelcomeActivity { <init>(...); }
+
+# Referenced at C:\Users\eric\Project\XposedInstaller-2.6.11\app\build\intermediates\manifests\full\release\AndroidManifest.xml:16
+-keep class de.robv.android.xposed.installer.XposedApp { <init>(...); }
+
+# Referenced at C:\Users\eric\Project\XposedInstaller-2.6.11\app\build\intermediates\manifests\full\release\AndroidManifest.xml:39
+-keep class de.robv.android.xposed.installer.XposedInstallerActivity { <init>(...); }
+
+# Referenced at C:\Users\eric\Project\XposedInstaller-2.6.11\app\build\intermediates\manifests\full\release\AndroidManifest.xml:92
+-keep class de.robv.android.xposed.installer.util.NotificationUtil$RebootReceiver { <init>(...); }
+
+# Referenced at C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\res\layout\list_item_version.xml:64
+-keep class de.robv.android.xposed.installer.widget.DownloadView { <init>(...); }
+
+# Referenced at C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\res\xml\prefs.xml:7
+# Referenced at C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\res\xml\prefs.xml:36
+-keep class de.robv.android.xposed.installer.widget.IntegerListPreference { <init>(...); }
+
+# Referenced at C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\res\xml\module_prefs.xml:4
+# Referenced at C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\res\xml\prefs.xml:24
+-keep class de.robv.android.xposed.installer.widget.ListPreferenceSummaryFix { <init>(...); }
+
