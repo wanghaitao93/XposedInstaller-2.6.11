@@ -30,11 +30,12 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-                <!-- &lt;!&ndash; hide application icon start &ndash;&gt; -->
-                <!-- <data -->
-                <!-- android:host="welcomeactivity" -->
-                <!-- android:scheme="de.robv.android.xposed.installer" /> -->
-                <!-- &lt;!&ndash; hide application icon end &ndash;&gt; -->
+
+                <!-- hide application icon start -->
+                <data
+                    android:host="welcomeactivity"
+                    android:scheme="de.robv.android.xposed.installer" />
+                <!-- hide application icon end -->
 
             </intent-filter>
         </activity>
