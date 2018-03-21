@@ -28,15 +28,27 @@
             android:configChanges="orientation|screenSize"
             android:exported="true" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.LAUNCHER" />
 
                 <!-- hide application icon start -->
-                <data
-                    android:host="welcomeactivity"
-                    android:scheme="de.robv.android.xposed.installer" />
+                <!--<data-->
+                    <!--android:host="welcomeactivity"-->
+                    <!--android:scheme="de.robv.android.xposed.installer" />-->
                 <!-- hide application icon end -->
 
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".CustomActivity"
+            android:theme="@android:style/Theme.NoDisplay"
+            android:configChanges="orientation|screenSize"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
