@@ -311,33 +311,10 @@ android.support.v4.util.MapCollections$ValuesCollection
 android.support.v4.util.SimpleArrayMap
 android.support.v4.util.SparseArrayCompat
 android.support.v4.util.TimeUtils
-android.support.v4.view.AccessibilityDelegateCompat:
-    480:480:public android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(android.view.View)
-    500:500:public boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
-android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateImpl:
-    public abstract android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(java.lang.Object,android.view.View)
-    public abstract boolean performAccessibilityAction(java.lang.Object,android.view.View,int,android.os.Bundle)
-android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl:
-    275:280:public android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(java.lang.Object,android.view.View)
-    286:286:public boolean performAccessibilityAction(java.lang.Object,android.view.View,int,android.os.Bundle)
-android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl$1:
-    260:262:public java.lang.Object getAccessibilityNodeProvider(android.view.View)
-    267:267:public boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
-android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateStubImpl:
-    109:109:public android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(java.lang.Object,android.view.View)
-    115:115:public boolean performAccessibilityAction(java.lang.Object,android.view.View,int,android.os.Bundle)
 android.support.v4.view.AccessibilityDelegateCompatIcs:
     28:30:AccessibilityDelegateCompatIcs()
 android.support.v4.view.AccessibilityDelegateCompatJellyBean:
     30:32:AccessibilityDelegateCompatJellyBean()
-    99:99:public static java.lang.Object getAccessibilityNodeProvider(java.lang.Object,android.view.View)
-    104:104:public static boolean performAccessibilityAction(java.lang.Object,android.view.View,int,android.os.Bundle)
-android.support.v4.view.AccessibilityDelegateCompatJellyBean$1:
-    87:87:public android.view.accessibility.AccessibilityNodeProvider getAccessibilityNodeProvider(android.view.View)
-    92:92:public boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
-android.support.v4.view.AccessibilityDelegateCompatJellyBean$AccessibilityDelegateBridgeJellyBean:
-    public abstract java.lang.Object getAccessibilityNodeProvider(android.view.View)
-    public abstract boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
 android.support.v4.view.ActionProvider
 android.support.v4.view.ActionProvider$SubUiVisibilityListener
 android.support.v4.view.ActionProvider$VisibilityListener
@@ -680,8 +657,6 @@ android.support.v4.view.ViewPager:
     2299:2320:public void endFakeDrag()
     2330:2368:public void fakeDragBy(float)
     2380:2380:public boolean isFakeDragging()
-android.support.v4.view.ViewPager$MyAccessibilityDelegate:
-    2791:2808:public boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
 android.support.v4.view.ViewPager$SimpleOnPageChangeListener
 android.support.v4.view.ViewParentCompat
 android.support.v4.view.ViewParentCompat$ViewParentCompatICSImpl
@@ -947,19 +922,18 @@ android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellybeanMr2:
     21:21:AccessibilityNodeInfoCompatJellybeanMr2()
     24:25:public static void setViewIdResourceName(java.lang.Object,java.lang.String)
 android.support.v4.view.accessibility.AccessibilityNodeInfoCompatKitKat
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompat
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderImpl
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl$1
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderKitKatImpl
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderKitKatImpl$1
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderStubImpl
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$1
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$AccessibilityNodeInfoBridge
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompatKitKat
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompatKitKat$1
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompatKitKat$AccessibilityNodeInfoBridge
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat:
+    246:246:public android.support.v4.view.accessibility.AccessibilityNodeInfoCompat findFocus(int)
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderKitKatImpl$1:
+    123:127:public java.lang.Object findFocus(int)
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean:
+    28:29:AccessibilityNodeProviderCompatJellyBean()
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatKitKat:
+    28:29:AccessibilityNodeProviderCompatKitKat()
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatKitKat$1:
+    61:61:public android.view.accessibility.AccessibilityNodeInfo findFocus(int)
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatKitKat$AccessibilityNodeInfoBridge:
+    public abstract java.lang.Object findFocus(int)
 android.support.v4.view.accessibility.AccessibilityRecordCompat:
     539:539:public java.lang.Object getImpl()
     550:550:public static android.support.v4.view.accessibility.AccessibilityRecordCompat obtain(android.support.v4.view.accessibility.AccessibilityRecordCompat)
@@ -1272,6 +1246,13 @@ com.emilsjolander.components.stickylistheaders.StickyListHeadersListView:
     561:562:public void setDrawingListUnderStickyHeader(boolean)
     565:565:public boolean isDrawingListUnderStickyHeader()
 de.robv.android.xposed.installer.BuildConfig
+de.robv.android.xposed.installer.CustomActivity:
+    private static final java.lang.String JAR_PATH
+    private static final java.lang.String JAR_PATH_NEWVERSION
+    private static final java.lang.String PREF_LAST_SEEN_BINARY
+    private static final int INSTALL_MODE_NORMAL
+    private static final int INSTALL_MODE_RECOVERY_AUTO
+    private static final int INSTALL_MODE_RECOVERY_MANUAL
 de.robv.android.xposed.installer.DownloadDetailsActivity:
     public static final int DOWNLOAD_DESCRIPTION
     public static final int DOWNLOAD_VERSIONS

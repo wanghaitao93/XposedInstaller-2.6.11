@@ -12,6 +12,8 @@ com.emilsjolander.components.stickylistheaders.StickyListHeadersListView
 com.emilsjolander.components.stickylistheaders.StickyListHeadersListView: StickyListHeadersListView(android.content.Context)
 com.emilsjolander.components.stickylistheaders.StickyListHeadersListView: StickyListHeadersListView(android.content.Context,android.util.AttributeSet)
 com.emilsjolander.components.stickylistheaders.StickyListHeadersListView: StickyListHeadersListView(android.content.Context,android.util.AttributeSet,int)
+de.robv.android.xposed.installer.CustomActivity
+de.robv.android.xposed.installer.CustomActivity: CustomActivity()
 de.robv.android.xposed.installer.DownloadDetailsActivity
 de.robv.android.xposed.installer.DownloadDetailsActivity: DownloadDetailsActivity()
 de.robv.android.xposed.installer.DownloadReceiver

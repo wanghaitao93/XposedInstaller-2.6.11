@@ -27,19 +27,21 @@
             android:label="@string/app_name"
             android:configChanges="orientation|screenSize"
             android:exported="true" >
+
             <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
+                <!--<action android:name="android.intent.action.VIEW" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+                <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
 
                 <!-- hide application icon start -->
-                <!--<data-->
-                    <!--android:host="welcomeactivity"-->
-                    <!--android:scheme="de.robv.android.xposed.installer" />-->
+                <data
+                    android:host="welcomeactivity"
+                    android:scheme="de.robv.android.xposed.installer" />
                 <!-- hide application icon end -->
 
             </intent-filter>
         </activity>
-
 
         <activity
             android:name=".CustomActivity"
@@ -47,8 +49,11 @@
             android:configChanges="orientation|screenSize"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+
             </intent-filter>
         </activity>
 

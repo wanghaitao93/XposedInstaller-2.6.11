@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\main\shaders"/></dataSet><dataSet config="release"><source path="C:\Users\eric\Project\XposedInstaller-2.6.11\app\src\release\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\eric\Project\XposedInstaller-2.6.1-AS\app\src\main\shaders"/></dataSet><dataSet config="release"><source path="C:\Users\eric\Project\XposedInstaller-2.6.1-AS\app\src\release\shaders"/></dataSet></merger>
